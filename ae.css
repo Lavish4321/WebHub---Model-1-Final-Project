@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+body {
+    margin: 0;
+    background-color:rgb(231, 219, 46);
+    font-family: 'Montserrat', sans-serif;
+    z-index: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(141, 20, 20, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 5px;
+  }
+
+#a {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 239, 125);
+    position: relative;
+}
+
+#lgn button {
+    margin: auto;
+    width: 100px;
+    margin-right: 15px;
+    height: 40px;
+    border: 0px  rgb(219, 209, 24);
+    border-radius: 39px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#lgn button:hover {
+    background-color: white;
+}
+
+#lgn {
+    margin-left: 146px;
+    margin-top: 26px;
+}
+
+#h1 {
+    height: 15vh;
+    background-color: rgb(244, 214, 22);
+    display: flex;
+    z-index: 1;
+    
+}
+
+#h1 #logo {
+    height: 50px;
+    width: 60%;
+    font-size: 50px;
+    padding-left: 42px;
+    padding-top: 12px;
+    
+}
+
+#puzzle {
+    height: 70px;
+    padding-top: 0px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: rgb(183, 174, 11);
+}
+
+
+#h1 #lgn {
+    text-align: center
+}
+
+#a #h1 #icon {
+    color:  rgb(153, 127, 13);
+    padding-top: 30px;
+}
+
+/* Screens Divison Style */
+
+#r {
+    height: 90vh;
+    background-color: rgb(224, 226, 100);
+    width: 79%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+#r iframe{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* Footer style */
+
+#extra {
+    height: auto;
+    width: 100%;
+    background-color:rgb(244, 214, 22);
+    padding-top: 20px;
+}
+
+
+#extra div{
+    float: left;
+    width: 33.33%;
+    background-color:rgb(244, 214, 22);
+    text-align: center;
+    height: 200px;
+}
+
+#extra p {
+    font-size: larger;
+}
+
+#extra p:hover  {
+    text-decoration: underline 0.9px;
+}
+
+#extra li:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+#extra a  {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+#extra ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* sidebar style */
+
+#sidebar {
+    width: 0px;
+    background-color:rgb(233, 222, 70);
+    height: 100vh;
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+    transition: 0.5s;
+    
+}
+
+.sidebar-items{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-items div{
+    background-color:rgb(233, 222, 70);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color:  rgb(153, 127, 13);
+    
+}
+
+.sidebar-items div:hover {
+    text-decoration: underline 0.7px;
+}
+
+#cbt {
+    cursor: pointer;
+    text-align: right;
+    
+}
+
+#icon {
+    cursor: pointer;
+    padding-top: 23px;
+    color: aqua;
+}
+
+/* nav bar css*/
+
+nav {
+    margin-top: 20px;
+}
+
+#nav_links a{
+    text-decoration:none;
+    border: .5px solid;
+    border-radius: 20px;
+    padding: 1.5px 6px;
+    color: rgb(153, 127, 13);
+}
+
+#nav_links a:hover {
+    border-radius: 0px;
+    transition: 0.3s;
+}
+
+#nav_links li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+/* open button style */
+
+#open {
+    margin-bottom: 40px;
+    margin-left: 42%;
+}
+#open a{
+    text-decoration: none;
+    border: 2px solid ;
+    padding: 15px;
+    border-radius: 25px;
+    color:  rgb(153, 127, 13);
+}
+
+#open a:hover {
+    border-radius: 0px;
+    transition: 0.3s;
+}
+
+/* Carousel style */ 
+
+#carouselExampleIndicators {
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    z-index: 3;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    display: none;
+}
+
+*{
+    color:  rgb(153, 127, 13);
+}

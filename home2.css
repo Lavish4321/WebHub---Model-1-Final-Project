@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(141, 20, 20, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 5px;
+  }
+
+#main {
+    height: 100vh;
+    background-color: rgb(81,81,81);
+}
+
+#h1 {
+    height: 15vh;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+}
+
+#h1 #logo {
+    height: 50px;
+    width: 60%;
+    font-size: 50px;
+    padding-left: 115px;
+    padding-top: 12px;
+}
+
+#puzzle {
+    height: 70px;
+    padding-top: 0px;
+}
+
+#main #h1 #logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#h1 #lgn {
+    text-align: center;
+}
+
+#mark {
+    background-color: rgb(226, 226, 226);
+    padding-top: 2px;
+    height: 25px;
+}
+
+#box {
+    background-color: rgb(81, 81, 81);
+    height: auto;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+#box div {
+    height: 230px;
+    width: 80%;
+    background-color: rgba(255, 255, 255,1.1);
+    margin: auto;
+    border-radius: 90px;
+    margin-top: 15px;
+    padding-top:130px;
+    font-size: 70px;
+    font-weight:bold;
+    padding-left: 40px;
+    
+}
+
+#box #more {
+    background-color: transparent;
+    padding-top: 10px;
+    padding-left: 170px;
+    height: 100px;
+  }
+
+#box div:hover {
+    transition: 0.7s;
+    color: #45baba;
+    border-radius: 0px;
+}
+
+#lgn button {
+    margin: auto;
+    width: 100px;
+    margin-right: 15px;
+    height: 40px;
+    border-radius: 39px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#lgn button:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0%;
+    transition: 0.7s;
+}
+
+#lgn {
+    margin-left: 215px;
+    margin-top: 26px;
+}
+/*-----------------------------------------------------------------*/
+#extra {
+    height: auto;
+    width: 100%;
+    background-color: rgb(30,30,30);
+    padding-top: 20px;
+}
+
+
+#extra div{
+    float: left;
+    width: 33.33%;
+    background-color: rgb(30,30,30);
+    text-align: center;
+    height: 200px;
+    color: white;
+}
+
+#extra p {
+    font-size: larger;
+}
+
+#extra p:hover  {
+    text-decoration: underline 0.9px;
+}
+
+#extra li:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+#extra a  {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+#extra ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+#game .game , #ai .game , #code .game , #video .game , #audio .game , #resume .game{
+    float: left;
+    width: 45%;
+}
+
+#box #game , #box #ai , #box #code , #box #video , #box #audio , #box #resume{
+    padding-top: 0px;
+    height: 395px;
+}
+.game img {
+    height: 300px;
+}
+
+#game #icon1 {
+    padding-top: 0px;
+}
+
+#ai #icon2 {
+    padding-top: 30px;
+}
+
+#code #icon3 {
+    padding-top: 30px;
+}
+
+#video #icon4 {
+    padding-top: 30px;
+}
+
+#audio #icon5 {
+    padding-top: 30px;
+}
+
+#resume #icon6 {
+    padding-top: 20px;
+}
+
+#resume #res {
+    padding-top: 100px;
+}
+
+#box #res , #box #ado , #box #vdo {
+    padding-top: 80px;
+}
+/*------------------------------------------------*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  

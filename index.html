@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Home Page</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="home2.css">
+
+</head>
+
+<body>
+    <div id="main">
+
+        <header id="h1">
+            <div id="logo"> <img src="animated-icons/186-puzzle-lineal.gif" alt="logo" id="puzzle"><a href="#"> WebHub </a></div>
+
+            <div id="lgn">
+               <a href="log-in.html"> <button >Log In</button></a><a href="log-in.html"><button href="log-in.html">Sign Up</button></a>
+            </div>
+        </header>
+
+        <div id="mark">
+            <marquee>Hello World 😎 </marquee>
+        </div>
+
+        <div id="box">
+            
+            <div id="game" onclick="location.href='gpage.html'" style="cursor: pointer;">
+                <div class="game">GAMES</div>
+                <div class="game" id="icon1"><center><img src="animated-icons/game-controller.gif" alt="joy-stick"></center></div>
+            </div>
+
+            <div id="ai"  onclick="location.href='aipage.html'" style="cursor: pointer;">
+                <div class="game">A.I. Tools</div>
+                <div class="game" id="icon2"><center><img src="animated-icons/maze.gif" alt="brain"></center></div>
+            </div>
+
+            <div id="code"  onclick="location.href='codes.html'" style="cursor: pointer;" >
+                <div class="game">Education</div>
+                <div class="game" id="icon3"><center><img src="animated-icons/book.gif" alt="book"></center></div>
+            </div>
+
+            <div id="video"  onclick="location.href='ve.html'" style="cursor: pointer;" >
+                <div class="game" id="vdo" >Video Editor</div>
+                <div class="game" id="icon4"><center><img src="animated-icons/video-channel.gif" alt="book"></center></div>
+            </div>
+
+            <div id="audio"  onclick="location.href='ae.html'" style="cursor: pointer;" >
+                <div class="game" id="ado">Audio Editor</div>
+                <div class="game" id="icon5"><center><img src="animated-icons/mixer.gif" alt="book"></center></div>
+            </div>
+
+            <div id="resume"  onclick="location.href='rb.html'" style="cursor: pointer;" >
+                <div class="game" id="res">Resume Builder</div>
+                <div class="game" id="icon6"><center><img src="animated-icons/409-tool-outline.gif" alt="book"></center></div>
+            </div>
+
+            <div id="more">More coming soon...</div>
+
+        </div>
+
+        <div id="extra">
+            <div id="e1"><p>Contact Us</p>
+            <ul>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBncVNkHsBSpjmtTCMxTvDBFzJKzljRbKtmwJFCxdxtfKkDCbxLDwPVXjVxFdXZNNKXbDNs" target="_blank"><li>Mail us</li></a>
+                <a href=""><li>Text us</li></a>
+            </ul>
+            </div>
+            <div id="e2"><p>Connect with us</p>
+            <ul>
+                <a href="https://www.linkedin.com/in/lavesh-manglani/" target="_blank"><li>Linked-In</li></a>
+                <a href="https://www.instagram.com/manglani_lavesh/" target="_blank"><li>Instagram</li></a>
+                <a href="https://github.com/Lavish4321" target="_blank"><li>Github</li></a>
+            </ul>
+            </div>
+            <div id="e3"><p>Feedback</p>
+            <ul>
+                <a href="feed.html" target="_blank"><li>Provide Feedback</li></a>
+            </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("h1");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+
+</html>
